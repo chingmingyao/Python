@@ -73,9 +73,9 @@ class Ebooktools(QtCore.QObject):
             # 点击下一页按钮
             if i%2==1:
                 pyautogui.click(next_page_button_position)
-
+                time.sleep(3)
             # 等待五秒钟
-            time.sleep(3)
+           
             
             # 发出进度信号，将当前迭代作为参数传递
             self.progress_updated.emit(i+1)
