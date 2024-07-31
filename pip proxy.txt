@@ -1,0 +1,1 @@
+pip install --proxy=http://proxy-n2.taipower.com.tw:3128 xlwings
